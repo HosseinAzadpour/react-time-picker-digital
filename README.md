@@ -18,7 +18,6 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
   - [Contact Information](#contact-information)
   - [License](#license)
   - [Links](#links)
-  - [Keywords](#keywords)
 
 ## Installation
 
@@ -42,7 +41,6 @@ TimePicker is a versatile and user-friendly React component designed to allow us
 
 **Key Features:**
 
-<br/>
 Bilingual Support: TimePicker supports both English and Persian languages, making it accessible for a wider audience.
 <br/>
 Responsive Design: The component adapts to various screen sizes and devices, ensuring a consistent user experience whether on mobile or desktop.
@@ -163,6 +161,8 @@ A: Ensure that the component is correctly imported and that all required props a
 
 ## Contributing
 
+Contributions are welcome! Please create an issue or a pull request.
+
 ## Contact Information
 
 For any questions or feedback, please contact me via:
@@ -171,7 +171,7 @@ For any questions or feedback, please contact me via:
 Email: [hossein.azp94@gmail.com]
 <br/>
 
-LinkedIn: `https://www.linkedin.com/in/hosseinazadpour`
+LinkedIn: [https://www.linkedin.com/in/hosseinazadpour]
 
 ## License
 
@@ -180,21 +180,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Links
 
 https://github.com/HosseinAzadpour/react-time-picker-digital
-
-## Keywords
-
-react,
-time-picker,
-Component,
-English,
-Persian,
-ui,
-responsive,
-timePicker,
-theme customization,
-date and time picker,
-react widget,
-easy to use,
-open source,
-clock,
-digital
