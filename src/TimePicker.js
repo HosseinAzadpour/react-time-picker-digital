@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./TimePicker.css";
+import "./class.css";
+import "./index.css";
 const TimePicker = ({
   sendDataToParent,
   prevPage,
