@@ -55,8 +55,8 @@ Easy Integration: Simply import the component and use it in your project with mi
 
 Here is screenshots of the `TimePicker` component:
 
-![TimePicker Demo](https://github.com/HosseinAzadpour/assets/blob/main/react-time-picker-digital/TimePickerDesktopSize.png)
-![TimePicker Demo](https://github.com/HosseinAzadpour/assets/blob/main/react-time-picker-digital/TimePickerPhoneSize.png)
+![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerDesktopSize.png)
+![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerPhoneSize.png)
 
 ## Features
 
