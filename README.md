@@ -6,21 +6,22 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
 
 - [⏰ TimePicker](#-timepicker)
   - [📖 Table of Contents](#-table-of-contents)
-  - [📥 Installation](#installation)
-  - [🚀 Introduction](#introduction)
-  - [🎛 Interactive Demo](#interactive-demo)
-  - [✨ Features](#features)
-  - [📢 What's New](#whats-new)
-    - [🆕 v0.2.6](#v026)
-    - [🔄 v0.2.7](#v027)
-  - [📝 Example](#example)
-  - [⚙️ Props](#props)
-  - [💡 Tips and Tricks](#tips-and-tricks)
+  - [Installation](#installation)
+  - [Introduction](#introduction)
+  - [Interactive Demo](#interactive-demo)
+  - [Features](#features)
+  - [What's New](#whats-new)
+    - [v0.2.6](#v026)
+    - [v0.2.7](#v027)
+    - [v0.2.8](#v028)
+  - [Example](#example)
+  - [props](#props)
+  - [Tips and Tricks](#tips-and-tricks)
   - [❓ FAQ](#-faq)
-  - [🤝 Contributing](#contributing)
-  - [📩 Contact Information](#contact-information)
-  - [📜 License](#license)
-  - [🔗 Links](#links)
+  - [Contributing](#contributing)
+  - [Contact Information](#contact-information)
+  - [License](#license)
+  - [Links](#links)
 
 
 ## Installation
@@ -81,6 +82,11 @@ Here is screenshots of the `TimePicker` component:
 - Improved performance by streamlining internal processes and reducing overhead.
 
 ### v0.2.7
+
+- Fixed several bugs.
+- Added emojis to various sections of the documentation.
+ 
+### v0.2.8
 
 - Fixed several bugs.
 - Added emojis to various sections of the documentation.

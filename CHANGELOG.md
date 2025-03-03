@@ -26,3 +26,9 @@
 ### Added
 
 - Added emojis throughout the entire README file to improve visual presentation and make the documentation more engaging.
+
+## [0.2.8] - 2025-03-03
+
+### Fixed
+
+- Resolved multiple bugs.
