@@ -949,7 +949,7 @@ const TimePicker = ({
             </div>
             <div className='hourSelector' ref={minuteSelector}></div>
           </div>
-          <div className='timer' sty>
+          <div className='timer'>
             {language == "fa" ? <h2>ساعت</h2> : <h2>Hour</h2>}
             <div className='timerContainer' ref={hourEl}>
               {Hours.map((item, index) => {
