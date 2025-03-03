@@ -6,7 +6,7 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
 
 - [⏰] [TimePicker](#-timepicker)
   - [📖] [Table of Contents](#-table-of-contents)
-  - [📥] [Installation](#installation)
+  - [📥] [Installation](# 📥 Installation)
   - [🚀] [Introduction](#introduction)
   - [🎛] [Interactive Demo](#interactive-demo)
   - [✨] [Features](#features)
@@ -36,8 +36,9 @@ or
 yarn add react-time-picker-digital
 ```
 
-## 🚀 Introduction
+## Introduction
 
+🚀
 TimePicker is a versatile and user-friendly React component designed to allow users to select time easily. With its intuitive interface and responsive design, TimePicker ensures a seamless experience across all devices.
 
 <br/>
