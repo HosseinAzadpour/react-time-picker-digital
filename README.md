@@ -4,25 +4,26 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
 
 ## 📖 Table of Contents
 
-- [⏰] [TimePicker](#-timepicker)
-  - [📖] [Table of Contents](#-table-of-contents)
-  - [📦 Installation](#📦Installation)
-  - [🚀] [Introduction](#introduction)
-  - [🎛] [Interactive Demo](#interactive-demo)
-  - [✨] [Features](#features)
-  - [📢] [What's New](#whats-new)
-    - [v0.2.6](#v026)
-    - [v0.2.7](#v027)
-  - [📝] [Example](#example)
-  - [⚙️] [Props](#props)
-  - [💡] [Tips and Tricks](#tips-and-tricks)
-  - [❓] [FAQ](#faq)
-  - [🤝] [Contributing](#contributing)
-  - [📩] [Contact Information](#contact-information)
-  - [📜] [License](#license)
-  - [🔗] [Links](#links)
+- [⏰ TimePicker](#-timepicker)
+  - [📖 Table of Contents](#-table-of-contents)
+  - [📥 Installation](#installation)
+  - [🚀 Introduction](#introduction)
+  - [🎛 Interactive Demo](#interactive-demo)
+  - [✨ Features](#features)
+  - [📢 What's New](#whats-new)
+    - [🆕 v0.2.6](#v026)
+    - [🔄 v0.2.7](#v027)
+  - [📝 Example](#example)
+  - [⚙️ Props](#props)
+  - [💡 Tips and Tricks](#tips-and-tricks)
+  - [❓ FAQ](#-faq)
+  - [🤝 Contributing](#contributing)
+  - [📩 Contact Information](#contact-information)
+  - [📜 License](#license)
+  - [🔗 Links](#links)
 
-## 📦Installation
+
+## Installation
 
 You can install the package using npm or yarn:
 
@@ -38,7 +39,6 @@ yarn add react-time-picker-digital
 
 ## Introduction
 
-🚀
 TimePicker is a versatile and user-friendly React component designed to allow users to select time easily. With its intuitive interface and responsive design, TimePicker ensures a seamless experience across all devices.
 
 <br/>
@@ -55,14 +55,14 @@ Smooth Scrolling: Navigate through hours and minutes with smooth scrolling funct
 <br/>
 Easy Integration: Simply import the component and use it in your project with minimal
 
-## 🎛 Interactive Demo
+## Interactive Demo
 
 Here is screenshots of the `TimePicker` component:
 
 ![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerDesktopSize.png)
 ![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerPhoneSize.png)
 
-## ✨ Features
+## Features
 
 - Customizable Styling: Adjust the appearance of the time picker with customizable properties such as `color`, `backgroundColor`, `textColor`, and `numbersColor` to match your design needs.
 - Language Support: The component supports both English and Persian (`fa`). It automatically adjusts text and layout direction based on the selected language.
@@ -72,7 +72,7 @@ Here is screenshots of the `TimePicker` component:
 - Parent Communication: The `sendDataToParent` function allows you to send the selected hour and minute back to the parent component.
 - Navigation Links: Easily navigate between pages with customizable `prevPage` and `nextPage` links.
 
-## 📢 What's New
+## What's New
 
 ### v0.2.6
 
@@ -87,7 +87,7 @@ Here is screenshots of the `TimePicker` component:
 
 For more details, see [CHANGELOG.md](./CHANGELOG.md).
 
-## 📝 Example
+## Example
 
 Here is an example of how to use the TimePicker component in your React application:
 
@@ -126,7 +126,7 @@ export default App;
 
 ```
 
-## ⚙️ props
+## props
 
 Prop Type Default Description
 sendDataToParent function Required Function to send the selected time to the parent.
@@ -144,7 +144,7 @@ nextPage string Required Link to the next page.
 | `textColor`        | `string`   | "#000000" | Sets the color theme of the timepicker text color. The user can select any valid CSS color.               |
 | `numbersColor`     | `string`   | "#bababa" | Sets the color theme of the timepicker numbers list color. The user can select any valid CSS color.       |
 
-## 💡 Tips and Tricks
+## Tips and Tricks
 
 Smooth Scrolling: Ensure that your container has sufficient height to enable smooth scrolling. Adjust CSS styles if you encounter performance issues.
 <br/>
@@ -178,11 +178,11 @@ Q: What should I do if the component is not rendering correctly?
 <br/>
 A: Ensure that the component is correctly imported and that all required props are provided. Check the console for any errors and make sure that your environment meets the necessary requirements.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please create an issue or a pull request.
 
-## 📩 Contact Information
+## Contact Information
 
 For any questions or feedback, please contact me via:
 <br/>
@@ -192,10 +192,10 @@ Email: [hossein.azp94@gmail.com]
 
 LinkedIn: [https://www.linkedin.com/in/hosseinazadpour]
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🔗 Links
+## Links
 
 https://github.com/HosseinAzadpour/react-time-picker-digital
