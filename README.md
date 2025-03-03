@@ -6,7 +6,7 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
 
 - [⏰] [TimePicker](#-timepicker)
   - [📖] [Table of Contents](#-table-of-contents)
-  - [📥] [Installation](# 📥 Installation)
+  - [📥] [Installation](#📥Installation)
   - [🚀] [Introduction](#introduction)
   - [🎛] [Interactive Demo](#interactive-demo)
   - [✨] [Features](#features)
@@ -22,7 +22,7 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
   - [📜] [License](#license)
   - [🔗] [Links](#links)
 
-## 📥 Installation
+## 📥Installation
 
 You can install the package using npm or yarn:
 
