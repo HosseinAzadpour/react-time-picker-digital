@@ -90,7 +90,6 @@ Here is screenshots of the `TimePicker` component:
 
 - Fixed several bugs.
 
-
 For more details, see [CHANGELOG.md](./CHANGELOG.md).
 
 ## Example
