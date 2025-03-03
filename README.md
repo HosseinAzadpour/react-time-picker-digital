@@ -89,7 +89,7 @@ Here is screenshots of the `TimePicker` component:
 ### v0.2.8
 
 - Fixed several bugs.
-- Added emojis to various sections of the documentation.
+
 
 For more details, see [CHANGELOG.md](./CHANGELOG.md).
 
