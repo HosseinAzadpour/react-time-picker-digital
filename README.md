@@ -11,9 +11,11 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
   - [🎛 Interactive Demo](#interactive-demo)
   - [✨ Features](#features)
   - [📢 What's New](#whats-new)
-    - [ v0.2.6](#v026)
-    - [ v0.2.7](#v027)
     - [ v0.2.8](#v028)
+    - [ v0.2.9](#v029)
+    - [ v0.3.0](#v030)
+    - [ v0.5.1](#v051)
+    - [ v0.5.2](#v052)
   - [📝 Example](#example)
   - [⚙️ Props](#props)
   - [💡 Tips and Tricks](#tips-and-tricks)
@@ -65,13 +67,13 @@ Here is screenshots of the `TimePicker` component:
 
 ## Features
 
-- Customizable Styling: Adjust the appearance of the time picker with customizable properties such as `color`, `backgroundColor`, `textColor`, and `numbersColor` to match your design needs.
+- Customizable Styling: Adjust the appearance of the time picker with customizable properties such as `activeColor`, `backgroundColor`, `textColor`, and `numbersColor` to match your design needs.
 - Language Support: The component supports both English and Persian (`fa`). It automatically adjusts text and layout direction based on the selected language.
 - Responsive Design: The time picker is designed to be responsive and works well across different screen sizes and devices.
 - Smooth Scrolling: The hour and minute selectors scroll smoothly, providing a seamless user experience.
 - Active State Highlighting: The selected hour and minute are highlighted to give users clear feedback on their choices.
-- Parent Communication: The `sendDataToParent` function allows you to send the selected hour and minute back to the parent component.
-- Navigation Links: Easily navigate between pages with customizable `prevPage` and `nextPage` links.
+- Parent Communication: The `data` function allows you to send the selected hour and minute back to the parent component.
+- Navigation Links: Easily navigate between pages with customizable `cancelPage` and `confirmPage` links.
 
 ## What's New
 
@@ -89,6 +91,31 @@ Here is screenshots of the `TimePicker` component:
 ### v0.2.8
 
 - Fixed several bugs.
+ 
+### v0.2.9
+
+- Fixed bundle.js bugs.
+ 
+### v0.3.0
+
+- Fixed useRef issues.
+ 
+### v0.5.1
+
+- Fixed useRef issues.
+- Improved and rebuild structure.
+- Improve functions and constants name .
+- Added constant file to store constant datas such as hours and minutes.
+  
+ 
+### v0.5.2
+
+- Enhanced Safety Checks.
+- Implemented Optional Chaining (?.).
+- Optimized Query Selection.
+- Added Cleanup (return function).
+- Improved Event Listener Logic.
+  
 
 For more details, see [CHANGELOG.md](./CHANGELOG.md).
 
@@ -104,7 +131,7 @@ import { TimePicker } from "react-time-picker-digital";
 function App() {
   var [hour, setHour] = useState();
   var [minute, setMinute] = useState();
-  function handleDataFromChild(data) {
+  function handleData(data) {
     setHour(data.hour);
     setMinute(data.minute);
     console.log("hour", hour);
@@ -114,14 +141,14 @@ function App() {
   return (
     <div className='App'>
       <TimePicker
-        backgroundColor={"#fff"}
-        color={"crimson"}
+        backgroundColor={"black"}
+        activeColor={"crimson"}
         textColor={"black"}
         numbersColor={"gray"}
         language={"en"}
-        prevPage={"/"}
-        nextPage={"/about"}
-        sendDataToParent={handleDataFromChild}
+        cancelPage={"/"}
+        confirmPage={"/about"}
+        data={handleData}
       />
     </div>
   );
@@ -134,17 +161,17 @@ export default App;
 ## props
 
 Prop Type Default Description
-sendDataToParent function Required Function to send the selected time to the parent.
-prevPage string Required Link to the previous page.
-nextPage string Required Link to the next page.
+data function Required Function to send the selected time to the parent.
+cancelPage string Required Link to the previous page.
+confirmPage string Required Link to the next page.
 
 | Prop               | Type       | Default   | Description                                                                                               |
 | ------------------ | ---------- | --------- | --------------------------------------------------------------------------------------------------------- |
-| `sendDataToParent` | `function` | Required  | A callback function to send the selected hour and minute to the parent component.                         |
-| `prevPage`         | `string`   | Required  | The URL to navigate to when the back button is clicked.                                                   |
-| `nextPage`         | `string`   | Required  | The URL to navigate to when the confirm button is clicked.                                                |
+| `data` | `function` | Required  | A callback function to send the selected hour and minute to the parent component.                         |
+| `cancelPage`         | `string`   | Required  | The URL to navigate to when the back button is clicked.                                                   |
+| `confirmPage`         | `string`   | Required  | The URL to navigate to when the confirm button is clicked.                                                |
 | `language`         | `string`   | "en"      | Determines the language of the timepicker. The user can select between Persian ('fa') and English ('en'). |
-| `color`            | `string`   | "#2088B4" | Sets the color theme of the timepicker selected hour and minute. The user can select any valid CSS color. |
+| `activeColor`            | `string`   | "#2088B4" | Sets the color theme of the timepicker selected hour and minute. The user can select any valid CSS color. |
 | `backgroundColor`  | `string`   | "#fff"    | Sets the color theme of the timepicker background color. The user can select any valid CSS color.         |
 | `textColor`        | `string`   | "#000000" | Sets the color theme of the timepicker text color. The user can select any valid CSS color.               |
 | `numbersColor`     | `string`   | "#bababa" | Sets the color theme of the timepicker numbers list color. The user can select any valid CSS color.       |
@@ -153,7 +180,7 @@ nextPage string Required Link to the next page.
 
 Smooth Scrolling: Ensure that your container has sufficient height to enable smooth scrolling. Adjust CSS styles if you encounter performance issues.
 <br/>
-Custom Styling: Use the `color`, `backgroundColor`, `textColor`, and `numbersColor` props to tailor the appearance of the time picker to match your application's theme.
+Custom Styling: Use the `activeColor`, `backgroundColor`, `textColor`, and `numbersColor` props to tailor the appearance of the time picker to match your application's theme.
 <br/>
 Language Direction: The component automatically adjusts text direction based on the selected language. For right-to-left languages (like Persian), the layout will adapt accordingly.
 <br/>
@@ -165,7 +192,7 @@ Testing: When testing the component, ensure to test across different devices and
 
 Q: How do I customize the appearance of the time picker?
 <br/>
-A: You can customize the appearance using the color, backgroundColor, textColor, and numbersColor props. These allow you to set colors for different elements within the time picker.
+A: You can customize the appearance using the activeColor, backgroundColor, textColor, and numbersColor props. These allow you to set colors for different elements within the time picker.
 <br/>
 Q: What languages are supported by the time picker?
 <br/>
@@ -177,7 +204,7 @@ A: The time picker is built for React and requires React to be installed in your
 <br/>
 Q: How do I handle the selected time data?
 <br/>
-A: The selected time data is passed to the sendDataToParent callback function when the user confirms their selection. The data will include the selected hour and minute.
+A: The selected time data is passed to the data callback function when the user confirms their selection. The data will include the selected hour and minute.
 <br/>
 Q: What should I do if the component is not rendering correctly?
 <br/>
