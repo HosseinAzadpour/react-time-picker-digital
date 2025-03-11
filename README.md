@@ -4,26 +4,24 @@
 
 A bilingual (English/Persian) and responsive digital time picker library with customizable color options. Perfect for modern web applications requiring dynamic and stylish time selection.
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [⏰ TimePicker](#-timepicker)
-  - [📖 Table of Contents](#-table-of-contents)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Introduction](#introduction)
-  - [Interactive Demo](#interactive-demo)
   - [Features](#features)
   - [What's New](#whats-new)
-    - [v0.2.6](#v026)
-    - [v0.2.7](#v027)
     - [v0.2.8](#v028)
     - [v0.2.9](#v029)
     - [v0.3.0](#v030)
     - [v0.5.1](#v051)
     - [v0.5.2](#v052)
+    - [v0.5.3](#v053)
   - [Example](#example)
   - [props](#props)
   - [Tips and Tricks](#tips-and-tricks)
-  - [❓ FAQ](#-faq)
+  - [FAQ](#faq)
   - [Contributing](#contributing)
   - [Contact Information](#contact-information)
   - [License](#license)
@@ -62,11 +60,6 @@ Smooth Scrolling: Navigate through hours and minutes with smooth scrolling funct
 <br/>
 Easy Integration: Simply import the component and use it in your project with minimal
 
-## Interactive Demo
-
-Here is screenshots of the `TimePicker` component:
-
-![TimePicker Demo](https://res.cloudinary.com/drw4j7kyd/image/upload/v1741715248/timePicker-sm.png)
 
 ## Features
 
@@ -80,17 +73,6 @@ Here is screenshots of the `TimePicker` component:
 
 ## What's New
 
-### v0.2.6
-
-- Fixed several bugs to enhance stability and prevent crashes in edge cases.
-- Removed unnecessary dependencies and optimized the codebase to reduce package size.
-- Improved performance by streamlining internal processes and reducing overhead.
-
-### v0.2.7
-
-- Fixed several bugs.
-- Added emojis to various sections of the documentation.
- 
 ### v0.2.8
 
 - Fixed several bugs.
@@ -118,6 +100,15 @@ Here is screenshots of the `TimePicker` component:
 - Optimized Query Selection.
 - Added Cleanup (return function).
 - Improved Event Listener Logic.
+  
+ 
+### v0.5.3
+
+- Simplifying Hours and Minutes.
+- Creating Custom Hooks.
+- Code Cleanup.
+- Implementing Tailwind CSS.
+- Benefits of the Changes.
   
 
 For more details, see [CHANGELOG.md](./CHANGELOG.md).
@@ -191,7 +182,7 @@ Initial Values: If you want to set default values for the hour and minute, consi
 <br/>
 Testing: When testing the component, ensure to test across different devices and screen sizes to confirm that the responsive design works as expected.
 
-## ❓ FAQ
+## FAQ
 
 Q: How do I customize the appearance of the time picker?
 <br/>
