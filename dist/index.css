@@ -1,25 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  direction: var(--dir);
   overflow-x: hidden;
   touch-action: none;
   overflow: hidden;
   padding: 0;
-  background-color: var(--primary);
-  --text: #000000;
-  --border: #bababa;
-  --number: #bababa;
-  --primary: #fff;
-  --secondary: #2088B4;
-  --padding: 0;
-  --dir: rtl;
-
 }
-
-
-
-
 
 
 * {
@@ -42,130 +31,68 @@
   display: none;
 }
 
-
-.timePicker h1 {
-  font-family: Rubik;
-  font-size: 1.8vw;
-  cursor: default;
-  color: var(--text);
-  margin: 0;
-  font-weight: 500;
-}
-
-.timePicker h2 {
-  font-family: Rubik;
-  font-size: 1.4vw;
-  cursor: default;
-  color: var(--text);
-  margin: 0;
-  font-weight: 600;
-}
-
-
-.timePicker h4 {
-  font-family: Rubik;
-  font-size: 1.2vw;
-  cursor: default;
-  color: var(--text);
-  margin: 0;
-  font-weight: 300;
-}
-
-
-.timePicker p {
-  font-family: Rubik;
-  font-size: 0.9vw;
-  cursor: default;
-  line-height: 1.8vw;
-  color: var(--text);
-  margin: 0;
-}
-
-.timePicker strong {
-  font-family: Rubik;
-  font-size: 0.9vw;
-  cursor: default;
-  color: var(--text);
-  margin: 0;
-}
-
-.timePicker li {
-  cursor: default;
-  font-family: Rubik;
-  font-size: 0.9vw;
-  text-decoration: none;
-  color: var(--text);
-  margin: 0;
-}
-
-.timePicker a {
-  font-family: Rubik;
-  font-size: 1.9vw;
-  color: var(--text);
-  cursor: pointer;
-  margin: 0;
-  height: 5vh;
-  border-radius: 10px;
-  border: none;
-  font-weight: 400;
-  cursor: pointer;
-  margin: 0;
-  transition: 0.5s;
-  text-decoration: none;
-
-}
-
-.timePicker a:hover {
-  color: var(--text);
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
+@layer base {
   .timePicker h1 {
-    font-size: 4vw;
+    @apply text-[1.8vw] cursor-default m-0 font-medium;
   }
 
   .timePicker h2 {
-    font-size: 3.5vw;
+    @apply text-[1.4vw] cursor-default m-0 font-semibold;
   }
-
-
 
   .timePicker h4 {
-    font-size: 3vw;
+    @apply text-[1.2vw] cursor-default m-0 font-light;
   }
 
-
-
   .timePicker p {
-    font-size: 3vw;
-    line-height: 5.8vw;
+    @apply text-[0.9vw] cursor-default m-0 leading-[1.8vw];
   }
 
   .timePicker strong {
-    font-size: 3vw;
-  }
-
-  .timePicker a {
-
-    font-size: 4vw;
+    @apply text-[0.9vw] cursor-default m-0;
   }
 
   .timePicker li {
-    font-size: 2.5vw;
+    @apply cursor-pointer text-[0.9vw] m-0;
   }
 
-  .timePicker button {
-    font-size: 3vw;
+  .timePicker a {
+    @apply text-[1.9vw] cursor-pointer m-0 h-[5vh] rounded-[10px] border-none font-normal transition-all duration-500 ease-in-out no-underline;
   }
+}
 
+@layer components {
+  @media screen and (max-width: 600px) {
+    .timePicker h1 {
+      @apply text-[4vw];
+    }
 
+    .timePicker h2 {
+      @apply text-[3.5vw];
+    }
 
+    .timePicker h4 {
+      @apply text-[3vw];
+    }
+
+    .timePicker p {
+      @apply text-[3vw] leading-[5.8vw];
+    }
+
+    .timePicker strong {
+      @apply text-[3vw];
+    }
+
+    .timePicker a {
+      @apply text-[4vw];
+    }
+
+    .timePicker li {
+      @apply text-[2.5vw];
+    }
+
+    .timePicker button {
+      @apply text-[3vw];
+    }
+  }
 }
