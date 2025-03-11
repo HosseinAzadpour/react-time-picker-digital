@@ -6,26 +6,34 @@
     "type": "git",
     "url": "https://github.com/HosseinAzadpour/react-time-picker-digital"
   },
-  "keywords": [
-    "react",
-    "time-picker",
-    "Component",
-    "English",
-    "Persian",
-    "ui",
-    "responsive",
-    "timePicker",
-    "theme customization",
-    "date and time picker",
-    "react widget",
-    "easy to use",
-    "open source",
-    "clock",
-    "digital"
-  ],
+ "keywords": [
+   "react",
+  "react-component",
+  "ui",
+  "component",
+   "javascript",
+  "js",
+  "react time picker",
+  "digital time picker",
+  "time picker component",
+  "English and Persian time picker",
+  "responsive time picker",
+  "time picker UI",
+  "customizable theme",
+  "date and time picker",
+  "react widget",
+  "easy to use time picker",
+  "open source time picker",
+  "clock component",
+  "digital time picker UI",
+  "react time picker widget",
+  "bilingual time picker",
+  "mobile-friendly time picker"
+]
+,
   "author": "Hossein Azadpour",
   "license": "MIT",
-  "description": "A bilingual (English/Persian) and responsive digital time picker library with customizable color options. Perfect for modern web applications requiring dynamic and stylish time selection.",
+  "description": "This advanced, fully-responsive digital time picker library is designed to provide a seamless and dynamic time selection experience for modern web applications. Whether you're building an application for international users or aiming for an elegant and intuitive design, this library offers everything you need to manage time selection effortlessly.",
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
     "clsx": "^2.1.1",
@@ -59,6 +67,9 @@
       "last 1 safari version"
     ]
   },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.26.9",
@@ -67,4 +78,5 @@
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3"
   }
+ 
 }

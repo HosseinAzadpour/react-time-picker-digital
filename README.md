@@ -2,7 +2,7 @@
 
 # ⏰ TimePicker
 
-A bilingual (English/Persian) and responsive digital time picker library with customizable color options. Perfect for modern web applications requiring dynamic and stylish time selection.
+This advanced, fully-responsive digital time picker library is designed to provide a seamless and dynamic time selection experience for modern web applications. Whether you're building an application for international users or aiming for an elegant and intuitive design, this library offers everything you need to manage time selection effortlessly.
 
 ##  Table of Contents
 
@@ -59,7 +59,10 @@ Customizable Color Options: Choose from a variety of color options to match your
 Smooth Scrolling: Navigate through hours and minutes with smooth scrolling functionality.
 <br/>
 Easy Integration: Simply import the component and use it in your project with minimal
-
+<br/>
+Customizable Scroll and UI Behavior: Fine-tune the scroll behavior, the appearance of time elements, and even the active item’s color to match your application’s style. This level of customization helps ensure that the time picker fits perfectly within your app's design.
+<br/>
+Seamless User Experience: From dynamic language switching to intuitive time scrolling, every detail of the user interface is crafted to provide an effortless and engaging user experience. Users can interact with the time picker with minimal effort and enjoy a modern, stylish interface.
 
 ## Features
 

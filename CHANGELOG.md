@@ -78,7 +78,7 @@
 - Added Cleanup (return function): Prevents memory leaks by properly removing event listeners when the component unmounts and Ensures that duplicate event listeners are not added on re-renders.
 - Improved Event Listener Logic: Now, scroll events are only added if hourEl.current and minuteEl.current exist and Prevents errors caused by missing references.
  
-## [0.5.2] - 2025-11-03
+## [0.5.3] - 2025-11-03
 
 ### Improved
 Optimized Hour and Minute Management:
