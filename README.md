@@ -6,24 +6,26 @@ A bilingual (English/Persian) and responsive digital time picker library with cu
 
 - [⏰ TimePicker](#-timepicker)
   - [📖 Table of Contents](#-table-of-contents)
-  - [📥 Installation](#installation)
-  - [🚀 Introduction](#introduction)
-  - [🎛 Interactive Demo](#interactive-demo)
-  - [✨ Features](#features)
-  - [📢 What's New](#whats-new)
-    - [ v0.2.8](#v028)
-    - [ v0.2.9](#v029)
-    - [ v0.3.0](#v030)
-    - [ v0.5.1](#v051)
-    - [ v0.5.2](#v052)
-  - [📝 Example](#example)
-  - [⚙️ Props](#props)
-  - [💡 Tips and Tricks](#tips-and-tricks)
+  - [Installation](#installation)
+  - [Introduction](#introduction)
+  - [Interactive Demo](#interactive-demo)
+  - [Features](#features)
+  - [What's New](#whats-new)
+    - [v0.2.6](#v026)
+    - [v0.2.7](#v027)
+    - [v0.2.8](#v028)
+    - [v0.2.9](#v029)
+    - [v0.3.0](#v030)
+    - [v0.5.1](#v051)
+    - [v0.5.2](#v052)
+  - [Example](#example)
+  - [props](#props)
+  - [Tips and Tricks](#tips-and-tricks)
   - [❓ FAQ](#-faq)
-  - [🤝 Contributing](#contributing)
-  - [📩 Contact Information](#contact-information)
-  - [📜 License](#license)
-  - [🔗 Links](#links)
+  - [Contributing](#contributing)
+  - [Contact Information](#contact-information)
+  - [License](#license)
+  - [Links](#links)
 
 
 ## Installation
@@ -62,8 +64,8 @@ Easy Integration: Simply import the component and use it in your project with mi
 
 Here is screenshots of the `TimePicker` component:
 
-![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerDesktopSize.png)
-![TimePicker Demo](https://github.com/HosseinAzadpour/react-time-picker-digital/blob/users/TimePickerPhoneSize.png)
+![TimePicker Demo](https://res.cloudinary.com/drw4j7kyd/image/upload/v1741715248/timePicker-lg.png)
+![TimePicker Demo](https://res.cloudinary.com/drw4j7kyd/image/upload/v1741715248/timePicker-sm.png)
 
 ## Features
 
@@ -139,7 +141,7 @@ function App() {
   }
 
   return (
-    <div className='App'>
+   
       <TimePicker
         backgroundColor={"black"}
         activeColor={"crimson"}
@@ -150,7 +152,7 @@ function App() {
         confirmPage={"/about"}
         data={handleData}
       />
-    </div>
+   
   );
 }
 
