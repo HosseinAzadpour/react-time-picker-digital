@@ -1,3 +1,5 @@
+![TimePicker Demo](https://res.cloudinary.com/drw4j7kyd/image/upload/v1741715248/timePicker-lg.png)
+
 # ⏰ TimePicker
 
 A bilingual (English/Persian) and responsive digital time picker library with customizable color options. Perfect for modern web applications requiring dynamic and stylish time selection.
@@ -64,7 +66,6 @@ Easy Integration: Simply import the component and use it in your project with mi
 
 Here is screenshots of the `TimePicker` component:
 
-![TimePicker Demo](https://res.cloudinary.com/drw4j7kyd/image/upload/v1741715248/timePicker-lg.png)
 ![TimePicker Demo](https://res.cloudinary.com/drw4j7kyd/image/upload/v1741715248/timePicker-sm.png)
 
 ## Features
